@@ -1,0 +1,19 @@
+.button {
+    background-color: gray;
+    color: black;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.button:hover{
+    color: white;
+    background-color: green;
+}
+
+.button::after {
+    content: 'Pasa por encima';
+}
+.button:hover::after {
+    content: '¡Hecho!';
+}
+
