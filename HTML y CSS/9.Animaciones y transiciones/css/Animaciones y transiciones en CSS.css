@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-modern{
+padding: 10px;
+background-color: #7fffd4;
+border: none;
+border-radius: 10px;
+font-size: larger;
+border-bottom: 1px solid rgb(96, 196, 163);
+}
+
+.btn-modern:hover {
+    box-shadow: 0 0 4px;
+    background-color: #ff7faa;
+    color: white;
+    animation: animación 0.4s forwards;
+
+}
+
+@keyframes animación {
+    
+    0% {
+        transform: translateY(0px)
+}
+    100% {
+        transform: translateY(-5px)
+        
+}
+}
