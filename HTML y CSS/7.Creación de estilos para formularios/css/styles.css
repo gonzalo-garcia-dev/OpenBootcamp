@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #161717;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+h3 {
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.buttons .google_btn{
+    color: white;
+    background-color: #1A73E8;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+    font-size: small;
+    font-weight: 500;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 40px;
+}
+
+.google_btn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.buttons .google_btn img{
+    height: 30px;
+    background-color: white;
+}
+
+.buttons .google_btn span {
+    background-color: #1A73E8;
+}
+
+.buttons .twitter_btn {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.buttons .twitter_btn img{
+    height: 20px;
+}
+
+.buttons .twitter_btn:hover {
+    cursor: pointer;
+    background-color: #ddd;
+
+}
+
+.separator{
+    display: flex;
+    gap: 15px;
+    margin: 20px;
+    align-items: center;
+    font-size: small;
+    color: #6C70A5;
+    width: 100%;
+}
+
+.separator hr{
+    flex-grow: 1;
+
+}
+
+form{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: start;
+}
+form label {
+    color: white;
+}
+
+form .form-field-group{
+    display: flex;
+    gap: 5px;
+}
+form .form-field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 12px;
+    gap: 5px;
+}
+
+form .checkbox{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: baseline;
+}
+
+form .checkbox label {
+font-size: small;
+}
+
+form input{
+    border: none;
+    background-color: #212121;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+
+form input:hover {
+    background-color: #454045;
+    border: solid 1px #F3F3F4;
+     box-shadow: 0 0 4px #d44ee6;
+}
+form input:focus {
+    background-color: #454045;
+    border: solid 1px #F3F3F4;
+     box-shadow: 0 0 4px #d44ee6;
+}
+
+form label{
+    font-weight: 700;
+}
+
+form .form-btns {
+    width: 100%;
+}
+
+form button {
+    background-color: #EA4C89;
+    border: none;
+    padding: 10px;
+    font-size: small;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+form button:hover{
+    opacity: 0.7;
+}
