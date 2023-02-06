@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.sidebar{
+background-color: #003049;
+width: 20vw;
+padding: 1.5rem;
+
+}
+
+.main{
+background-color: #d62828;
+flex-grow: 2;
+}
+
+.element{
+    background-color: #f77f00;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 640px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+    
+    .sidebar {
+        display: flex;
+        width: 100vw;
+        height: 30vh;
+        justify-content: baseline;
+        align-items: baseline;
+        padding: 0.5rem;
+
+    }
+
+    .element{
+        margin: 0.25rem;
+        padding: 0.25rem;
+    }
+
+    .main{
+        width: 100vw;
+        height: 70vw;
+    }
+}
